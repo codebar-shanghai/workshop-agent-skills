@@ -3,13 +3,13 @@
 ## How to generate
 
 1. Suppose at the stage the text and language id are known.
-2. Check whether `curl` is available. Be aware of the system which is used.
+2. Check whether `curl` is available in the current environment. The command used for this check may differ between Windows and Unix-like systems.
 3. Run the command `curl` to send the text and language id as form data to the server `http://127.0.0.1:5002/tts`, and save the audio file to the root of the repo with the filename `lang_id.wav`.
 
 ## curl Example
 
-In the following example, the text `foo` and language id `en` are used, and save the audio file as `en.wav`.
+If the previous translation returns `你好世界` as text and `zh` as the language id, then the following request is sent and the audio file should be saved as `zh.wav`.
 
 ```sh
-curl -X POST http://127.0.0.1:5002/tts -F "text=foo" -F "language=en" --output en.wav
+curl -X POST http://127.0.0.1:5002/tts -F "text=你好世界" -F "language=zh" --output zh.wav
 ```
