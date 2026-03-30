@@ -35,9 +35,13 @@
     </div>
     <script src="https://unpkg.com/reveal.js@6.0.0/dist/reveal.js"></script>
     <script src="https://unpkg.com/reveal.js@6.0.0/dist/plugin/markdown.js"></script>
+    <script src="https://unpkg.com/reveal.js@6.0.0/dist/plugin/notes.js"></script>
     <script>
       Reveal.initialize({
-        plugins: [RevealMarkdown],
+        plugins: [
+          RevealMarkdown,
+          RevealNotes,
+        ],
         slideNumber: true,
         hash: true,
         hashOneBasedIndex: true,

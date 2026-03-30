@@ -34,14 +34,20 @@ Note: a user can send text, images or voice chat with AI; AI can generate text, 
 
 ![LM Studio](lmstudio.hero-new.56ec79be.webp)
 
-Note: running an open source model locally; conversational; better for privacy, but requires a little bit teck skill to setup, and in many cases a powerful computer is required.
+Note: running an open source model locally; conversational; better for privacy, but requires a little bit tech skill to setup, and in many cases a powerful computer is required.
 
 
 
 ## Agents
 
-- An agent is a tool on your computer that can follow your instructions and work with your files (like reading and writing).
-- It may be a standalone app, or built into another app such as Microsoft Office.
+- An agent is a tool on your computer that can follow your instructions and work with your files.
+- It may be a standalone app, or built into another app.
+
+Note:
+1. can write files;
+2. can read files;
+3. if a file is already in the working context, you usually do not need to send it again after editing;
+4. because it is integrated into your tools, you often do not need to switch between apps.
 
 
 
@@ -49,6 +55,13 @@ Note: running an open source model locally; conversational; better for privacy, 
 
 - Programmers use agents to write and edit code faster (vibe coding).
 - People also use agents as personal AI assistants, for example OpenClaw.
+
+Note:
+1. awesome OpenClaw cases;
+2. daily Reddit / YouTube digest;
+3. custom morning brief;
+4. CRM;
+5. market research;
 
 
 
@@ -65,7 +78,11 @@ Note: these agents are not only for programmers
 ## Preview
 ![preview](preview.png)
 
-Note: copilot integrated in vscode, a local application; can talk to a LLM; has access to local file
+Note:
+1. revisit the concepts mentioned earlier;
+2. an integrated agent can talk to a LLM;
+3. has access to local files;
+4. an editor widely used by programmers, but can also be useful for non-programming tasks;
 
 
 
@@ -73,12 +90,16 @@ Note: copilot integrated in vscode, a local application; can talk to a LLM; has 
 
 - A skill is a small instruction file that teaches the AI how to handle one specific task.
 
+Note: a text file in a very simple, easy to understand syntax; once a skill is created, it can be reused; skills are supported by several agent tools.
+
 
 
 ## Tools
 
 - [VS Code](https://code.visualstudio.com/)
 - (Optional) A GitHub account
+
+Note: for people with a technical background, other agents (claude code / codex / gemini) or editors can also be used.
 
 
 
@@ -90,6 +111,8 @@ Note: copilot integrated in vscode, a local application; can talk to a LLM; has 
 3. Create a new file called `helloworld.md`.
 4. Visit https://www.markdownguide.org/cheat-sheet/ and try out a few syntaxes.
 5. Preview your markdown file in VS Code.
+
+Note: guide people through the interface of VS code;
 
 
 
@@ -133,3 +156,9 @@ Note: copilot integrated in vscode, a local application; can talk to a LLM; has 
 ### A More Advanced Skill
 
 See this [file](https://github.com/codebar-shanghai/workshop-agent-skills/blob/main/.agents/skills/helloworld/SKILL.md?plain=1)
+
+Note:
+1. Explain the skill first;
+2. introduce the concept of references and scripts;
+3. used on demand, so save tokens (and introduce the concept of context);
+4. powerful but should be careful for external scripts which may lead to data leaks;
