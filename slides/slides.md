@@ -173,7 +173,8 @@ Note:
 - [Skills from OpenAI](https://github.com/openai/skills)
 
 Note:
-1. Skills can cover brand guidelines, canvas design, doc coauthoring, figma desgin generation, frontend design, slides, and spreadsheets.
-2. There are many open-source skills.
-3. Since the agents can access your computer as you do, it's better to audit skills written by others first before using.
-4. When creating your own skill, clear instructions can reduce misunderstanding and lead to better results.
+- Local skills vs Global skills.
+- Skills can cover brand guidelines, canvas design, doc coauthoring, figma desgin generation, frontend design, slides, and spreadsheets.
+- There are many open-source skills.
+- Since the agents can access your computer as you do, it's better to audit skills written by others first before using.
+- When creating your own skill, clear instructions can reduce misunderstanding and lead to better results.
