@@ -22,7 +22,7 @@
 
 
 
-## Using a LLM on the Cloud
+## Using an LLM on the Cloud
 
 ![ChatGPT](chatgpt.png)
 
